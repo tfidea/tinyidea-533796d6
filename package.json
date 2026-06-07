@@ -1,0 +1,16 @@
+{
+  "name": "calculator",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:frontend"
+  },
+  "dependencies": {
+    "hono": "^3.12.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.22.0"
+  }
+}

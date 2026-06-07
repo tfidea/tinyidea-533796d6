@@ -1,0 +1,12 @@
+name = "calculator"
+main = "src/index.ts"
+compatibility_date = "2023-12-01"
+
+[site]
+bucket = "./frontend/dist"
+
+[env.production]
+name = "calculator"
+
+[env.preview]
+name = "calculator-preview"
